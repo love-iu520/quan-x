@@ -40,10 +40,10 @@ https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends
 ## 开屏广告(预加载) //app.bilibili.com
 ## Material_Ad //api.bilibili.com
 
- ^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report url reject-dict
+^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report url reject-dict
 ## 小卡片广告 //api.bilibili.com
 
- ^https://api.bilibili.com/pgc/season/player/cards url reject-dict
+^https://api.bilibili.com/pgc/season/player/cards url reject-dict
 
 ## 油管 //-redirector*.googlevideo.com, *.googlevideo.com, www.youtube.com, s.youtube.com, youtubei.googleapis.com
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
