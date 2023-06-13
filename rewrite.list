@@ -20,9 +20,3 @@
 #首页去除番剧
 #^https:\/\/app\.bilibili\.com\/x\/resource\/(top\/activity|show\/tab\/v2)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/bilibili/bili.js
 hostname = app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.biliapi.net
-
-#TT语音 #开屏广告 #主机名ga-album-cdnqn.52tt.com
-#响应体搜不到，懒得一个一个试了，个别图片误杀不管了。
-^https:\/\/ga-album-cdnqn\.52tt\.com\/prod-yunying\/.+.jpg url reject-dict
-
-hostname = ga-album-cdnqn.52tt.com
