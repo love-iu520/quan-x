@@ -24,5 +24,5 @@ hostname = app.bilibili.com, api.bilibili.com, api.live.bilibili.com, grpc.bilia
 #TT语音 #开屏广告 #主机名ga-album-cdnqn.52tt.com
 #响应体搜不到，懒得一个一个试了，个别图片误杀不管了。
 ^https:\/\/ga-album-cdnqn\.52tt\.com\/prod-yunying\/.+.jpg url reject-dict
-[mitm]
+
 hostname = ga-album-cdnqn.52tt.com
